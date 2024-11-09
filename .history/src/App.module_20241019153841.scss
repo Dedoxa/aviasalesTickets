@@ -1,0 +1,27 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+body {
+  background-color: #f3f7fa;
+  padding: 50px 103px;
+}
+
+.contentBox {
+  font-family: "Open sans";
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.hehmda {
+  background-color: aquamarine;
+
+  .textSpan {
+    color: rgb(152, 0, 0);
+    font-weight: bold;
+    font-size: 36px;
+  }
+}

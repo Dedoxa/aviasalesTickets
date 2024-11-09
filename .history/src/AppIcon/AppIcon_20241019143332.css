@@ -1,0 +1,11 @@
+.AppIcon {
+    display: flex;
+}
+
+.AviasalesIconBackground {
+}
+
+.AviasalesIconPlane {
+    position: relative;
+    left: -30px
+}

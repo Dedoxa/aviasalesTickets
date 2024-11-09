@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(sans-serif)
+    url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+}
+
+.contentBox {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.centeredOpenSansText {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.spinText {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #f3f7fa;
+  padding: 50px 103px;
+}
+
+.App {
+  .priceFiltersAndTicketsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

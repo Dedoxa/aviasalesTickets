@@ -1,0 +1,12 @@
+.mainTicketInfo,
+.otherTicketInfo {
+    display: flex;
+}
+
+.mainTicketInfo {
+    justify-content: space-between;
+}
+
+.otherTicketInfo {
+    justify-content: space-evenly;
+}

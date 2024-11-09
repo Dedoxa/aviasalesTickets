@@ -1,0 +1,16 @@
+.mainTicketInfo,
+.otherTicketInfo {
+  display: flex;
+}
+
+.mainTicketInfo {
+  justify-content: space-between;
+}
+
+.otherTicketInfo {
+  gap: 20px;
+  
+  .infoRow {
+    color: #A0B0B9;
+  }
+}

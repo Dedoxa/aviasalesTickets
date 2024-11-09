@@ -1,0 +1,22 @@
+.mainTicketInfo,
+.otherTicketInfo {
+  display: flex;
+}
+
+.mainTicketInfo {
+  justify-content: space-between;
+}
+
+.otherTicketInfo {
+  gap: 20px;
+  
+  .infoRow {
+    display: flex;
+    // color: #A0B0B9;
+  }
+
+  .infoTwoLined {
+    display: flex;
+    flex-direction: column;
+  }
+}

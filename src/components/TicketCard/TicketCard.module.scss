@@ -1,0 +1,34 @@
+.mainTicketInfo,
+.otherTicketInfo {
+  display: flex;
+}
+
+.mainTicketInfo {
+  justify-content: space-between;
+  align-items: center;
+
+  .price {
+    color: #2196f3;
+    font-size: 24px;
+  }
+}
+
+.otherTicketInfo {
+  flex-direction: column;
+  gap: 20px;
+
+  .infoRow {
+    display: flex;
+    gap: 70px;
+  }
+
+  .infoTwoLined {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+
+    .titleLine {
+      color: #a0b0b9;
+    }
+  }
+}
